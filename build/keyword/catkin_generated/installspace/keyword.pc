@@ -1,0 +1,8 @@
+prefix=/home/micros/snix/install
+
+Name: keyword
+Description: Description of keyword
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/micros/snix/install/lib 
+Requires: 
