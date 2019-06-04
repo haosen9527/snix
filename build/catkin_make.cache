@@ -1,2 +1,0 @@
-keyword:socket
--DCATKIN_DEVEL_PREFIX=/home/micros/snix/devel -DCMAKE_INSTALL_PREFIX=/home/micros/snix/install -G Unix Makefiles

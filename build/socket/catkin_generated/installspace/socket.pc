@@ -1,8 +1,0 @@
-prefix=/home/micros/snix/install
-
-Name: socket
-Description: Description of socket
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/micros/snix/install/lib 
-Requires: 
