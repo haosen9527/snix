@@ -1,11 +1,11 @@
 #include <iostream>
-
+#include <locale>
 typedef float snixFloat;
 int main()
 {
     std::cout<<"please input number"<<std::endl;
     long double number1 = 0,number2 = 0;
-    std::cin >> number1 >> number2;
+//    std::cin >> number1 >> number2;
     std::cout << "----------------------" << std::endl;
     std::cout << "sum:" << number1+number2 << std::endl;
     std::cerr << number1 << std::endl;
@@ -24,5 +24,8 @@ int main()
     std::cout << "AlloC:" << resNaN << std::endl;
     extern int resNaN_;
     auto int tt;
+    setlocale(LC_ALL,"chs");
+    wchar_t x[]=L"你好"; 
+    std::wcout <<sizeof(x) << std::endl;
     return 0;
 }
